@@ -1,0 +1,44 @@
+
+{
+  "development": {
+    "username": "root",
+    "password": "1234",
+    "database": "finSquad_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "binance": {
+    "live": {
+      "apiKey": "KZCE2QS865tOi0aQnPxQePP0wrIpNozUtD1NGoY3rXT69nUcdUejIa55wzS20BbO",
+      "secretKey": "mTa02KTVedxN8a0ukVCByT5fxraruQxtPUkfpsvhjIGWwvxtMM5grL5ohdfd11Q9"
+    },
+    "test": {
+      "apiKey": "KZCE2QS865tOi0aQnPxQePP0wrIpNozUtD1NGoY3rXT69nUcdUejIa55wzS20BbO",
+      "secretKey": "mTa02KTVedxN8a0ukVCByT5fxraruQxtPUkfpsvhjIGWwvxtMM5grL5ohdfd11Q9"
+    }
+  },
+  "mongo": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "database": "botcher-bot"
+  },
+  "trade": {
+    "height": 2000,
+    "zoneize": 100
+  }
+}
+
